@@ -26,7 +26,7 @@ module Microposts
       g.javascripts false
       g.helper false
       g.test_framework false
-      config.active_record.raise_in_transactional_callbacks = true
+     config.active_record.raise_in_transactional_callbacks = true
    end
   end
 end
